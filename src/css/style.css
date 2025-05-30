@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: radial-gradient(#000, #1d1256);
+    height: 100vh;
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcode-generator-conteiner {
+    background-color: #2c2069;
+    border: 2px solid #3a2a86;
+    border-radius: 15PX;
+    display: flex;
+    color: #FFFFFF;
+    padding: 50PX;
+    gap: 50px;
+}
+
+.qrcode-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    width: 350px;
+    justify-content: center;
+}
+
+.qrcode-details .qr-code-title h2{
+    font-size: 65px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.qrcode-details .qr-code-title h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.qr-code-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.qr-code-link label {
+    font-size: 16px;
+    font-weight: 600;
+    align-self: center;
+}
+
+.qr-code-link input {
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffffffde;
+}
+
+.qr-code-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.qr-code-preview p{
+    display: flex;
+    justify-content: center;
+}
+
+.qrcode img{
+    max-width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}

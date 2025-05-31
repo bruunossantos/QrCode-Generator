@@ -95,9 +95,14 @@ body {
     padding: 10px;
 }
 
-.my-button {
+.buttons {
     display: flex;
     justify-content: center;
+    gap: 10px;
+}
+
+.download-button {
+    display: none;
 }
 
 button {
@@ -108,9 +113,7 @@ button {
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 600;
-    margin: 10px;
     transition: .2s;
-    
 }
 
 button:hover {

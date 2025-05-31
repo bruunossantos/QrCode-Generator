@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 
-.qrcode-generator-conteiner {
+.qrcode-generator-container {
     background-color: #2c2069;
     border: 2px solid #3a2a86;
     border-radius: 15PX;
@@ -21,6 +21,17 @@ body {
     color: #FFFFFF;
     padding: 50PX;
     gap: 50px;
+}
+
+.container h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.container span {
+    color: #5785da;
 }
 
 .qrcode-details {
@@ -41,8 +52,9 @@ body {
 .qrcode-details .qr-code-title h3{
     font-size: 30px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: -10px;
+    letter-spacing: 5px;
 }
 
 .qr-code-link {
@@ -80,4 +92,30 @@ body {
     max-width: 300px;
     background-color: #FFFFFF;
     border-radius: 15px;
+    padding: 10px;
 }
+
+.my-button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 30px;
+    padding: 8px 30px;
+    border: none;
+    background-image: linear-gradient( #5785da, #1d3d79);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+    transition: .2s;
+    
+}
+
+button:hover {
+    background-image: linear-gradient( #537cc9, #1a3870);
+    transform: scale(1.05);
+}
+
+

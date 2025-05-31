@@ -18,24 +18,27 @@
     </head>
 <body>
     <main>
-        <section class="conteiner">
-            <h1>Gere e customize seu <span>QR Code</span></h1>
-            <div class="qrcode-generator-conteiner">
+        <section class="container">
+            <h1>Gere aqui o seu <span>QR Code</span></h1>
+            <div class="qrcode-generator-container">
                 <div class="qrcode-details">
                     <div class="qr-code-title">
                         <h2>Qrcode</h2>
                         <h3>Generator</h3>
                     </div>
-                    <div class="qr-code-link">
+                    <div class="qr-code-link" id="qr-code-link">
                         <label for="link">Digite seu link</label>
                         <input type="text" id="link" placeholder="Seu link aqui">
                     </div>
+                    <div class="my-button" id="my-button">
+                        <button>Gerar QrCode</button>
+                    </div>
                     
                 </div>
-                <div class="qrcode-conteiner">
+                <div class="qrcode-container">
                     <div class="qr-code-preview">
                         <p>QR Code Preview</p>
-                        <div class="qrcode">
+                        <div class="qrcode" id="qrcode">
                             <img src="/src/img/qr-code-txt.png" alt="QRCode">
                         </div>
                     </div>
